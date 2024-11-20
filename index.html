@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="container header-content">
+            <!-- Left Column: Info -->
+            <div class="header-info">
+                <h1>Hi, I'm <span class="highlight">Shraddha Basnet</span></h1>
+                
+                <p>
+                    <p>I'm a skilled developer with experience in HTML, CSS, JavaScript, and more. I love building responsive and dynamic websites that solve real-world problems.</p>
+                </p>
+                <a href="#portfolio" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Hire Me</a>
+            </div>
+    
+            <!-- Right Column: Picture -->
+            <div class="header-image">
+                <img src="shraddha.jpeg" alt="Shraddha Basnet" class="profile-pic">
+            </div>
+        </div>
+    </header>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am from jhapa. I am currently a student. My passions are coding, web development. I see myself as a great web developer in 5 years.</p>
+            <p>
+                I am a passionate Web Developer with expertise in crafting modern, responsive, 
+                and user-friendly websites.
+            </p>
+            <p>I'm a skilled developer with experience in HTML, CSS, JavaScript, and more. I love building responsive and dynamic websites that solve real-world problems.</p>
+            <p>I love learing new programming concepts, frameworks, libraries.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Project Works Upto Present</h2>
+            <div class="grid">
+                <div class="portfolio-item">
+                    <img src="project1.png" alt="Project 1">
+                    <h3>Adornment Emporium</h3>
+                    <p>
+                        Adornment Emporium is an e-commerce jewelry platform designed for customers to explore and shop for jewelry based on various categories and brands. The store provides an intuitive browsing experience and allows users to place orders seamlessly, ensuring a smooth online shopping journey.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.png" alt="Project 2">
+                    <h3>Farmers Market Platform</h3>
+                    <p>
+                        Farmers Market Platform is an online marketplace that connects customers with local farmers, allowing them to browse and purchase fresh produce, dairy, and other farm products. It promotes sustainable shopping while supporting local agriculture.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Shraddha Basnet. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
